@@ -59,7 +59,7 @@ const ItemData = observer(({
 
             </button>
             <div
-                className={`overflow-hidden transition-max-height duration-500 ${isActive ? 'min-h-40' : 'max-h-0'} w-screen`}
+                className={`overflow-hidden transition-max-height duration-500 ${isActive ? 'min-h-40' : 'max-h-0'} w-full max-w-full`}
             >
                 <div className="p-4">
                     {

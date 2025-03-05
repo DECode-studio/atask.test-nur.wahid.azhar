@@ -12,7 +12,7 @@ const RepoItem = observer(({
     data,
 }: Props) => {
     return (
-        <div className="border-t border-green-500 w-100">
+        <div className="border-t border-green-500 max-w-full">
             <div
                 className="flex justify-between items-center text-left text-xl font-normal text-gray-600 py-4 transition duration-500 hover:text-cyan-700"
 
